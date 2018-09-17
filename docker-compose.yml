@@ -2,7 +2,7 @@ version: "3.2"
 services:
 
   chocolate:
-    image: chocolateyfest/chocolate:lastest
+    image: chocolateyfest/chocolate:latest
     ports:
       - 8080:8080
     deploy:
