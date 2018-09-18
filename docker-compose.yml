@@ -2,7 +2,7 @@ version: "3.2"
 services:
 
   chocolate:
-    image: chocolateyfest/chocolate:latest
+    image: chocolateyfest/appetizer:1.0.0
     ports:
       - 8080:8080
     deploy:
