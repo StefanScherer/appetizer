@@ -14,7 +14,7 @@ const file = files[pos];
 
 console.log(`Got ${files.length} img files, choosing position ${pos}.`);
 http.createServer((req, res) => {
-  const path = `img/${file}`
+  const path = `img/${file}`;
   fs.readFile(path, (err, data) => {
     if (err) {
       res.writeHead(404, { 'Content-Type': 'text/plain' });
